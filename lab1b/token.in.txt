@@ -9,7 +9,7 @@ if
 end
 for
 read
-print
+write
 let
 then
 array 
