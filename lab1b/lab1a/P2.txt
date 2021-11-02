@@ -1,0 +1,27 @@
+go
+{
+let int n , i , m = 0 , ok = 0 ;
+let string msg = "" ;
+    
+
+read(n) ;
+m = n / 2 ;
+for i = 2 as long as i < = m with i = i + 1 do
+{   
+	if n % i == 0 then
+	{
+		msg = "No" ;
+		ok = 1 ;
+		break ;
+	}
+    
+   
+}
+if ok == 0 then
+{  
+	msg = "Yes";
+}
+
+write(msg) ;
+
+}
