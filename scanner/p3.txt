@@ -1,0 +1,22 @@
+go
+{
+
+let int n , i , sum = 0 ;
+let string msg = "";
+
+read(n) ;
+if n < 0 then
+{
+   msg = "positive" ;
+   write(msg) ;
+}
+else
+{   sum = 0 ;
+    while n > 0 do
+    {
+       sum += num ;
+       n -= 1 ;
+   }
+   write(sum) ;
+}
+}
